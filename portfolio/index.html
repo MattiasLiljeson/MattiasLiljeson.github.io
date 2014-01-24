@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Mattias Liljeson</title>
+  <title>portfolio - Mattias Liljeson</title>
   <meta name="author" content="Mattias Liljeson">
 
   
-  <meta name="description" content="Blog Archive 2014 An Artificial Life Simulation
-Jan 24 2014 Mattias Liljeson I'm a CompSci MSc student with interests in realtime rendering, &hellip;">
+  <meta name="description" content="Portfolio My main experience is from game projects were I&rsquo;ve mostly worked on architecture and rendering. I do however have other interests as &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ Jan 24 2014 Mattias Liljeson I'm a CompSci MSc student with interests in realtim
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://MattiasLiljeson.github.io/blog/archives/">
+  <link rel="canonical" href="http://MattiasLiljeson.github.io/portfolio/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -69,26 +68,27 @@ Jan 24 2014 Mattias Liljeson I'm a CompSci MSc student with interests in realtim
 <article role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    <h1 class="entry-title">Portfolio</h1>
     
   </header>
   
-  <div id="blog-archives">
+  <p>My main experience is from game projects were I&rsquo;ve mostly worked on architecture and rendering. I do however have other interests as well. Some of these ramblings are presented below.</p>
+
+<h2>Amalgamation</h2>
+
+<iframe width="560" height="315" src="http://www.indiedb.com/media/iframe/811308" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 
+<p>I&rsquo;ve been part of some quite large game projects as a member of a group. The biggest and longest was a game project for six months were we started from scratch and built a modern 3D space shooter with fun gameplay (at least that&rsquo;s what I think ;&ndash;)) and quite some eye candy. Someday, not to far into the future, I will write a few blog posts about the game. In the meantime you can fork the source code on <a href="https://github.com/MattiasLiljeson/Amalgamation">GitHub</a> and download a compiled executable from <a href="http://www.indiedb.com/games/amalgamation">IndieDB</a>.</p>
 
-  
-  <h2>2014</h2>
+<h2>The little cheese boy</h2>
 
-<article>
-  
-<h1><a href="/blog/2014/01/24/artificial-life/">An Artificial Life Simulation</a></h1>
-<time datetime="2014-01-24T23:56:07+01:00" pubdate><span class='month'>Jan</span> <span class='day'>24</span> <span class='year'>2014</span></time>
+<p>In the autumn of 2012, I together with some friends made a small pac-man clone with a twist in a project course. The goal with this project was to get a grip on Agile methodologies, especially Scrum, and to successfully deliver a cross-platform game. In the end, I think we got a cute little game together which the &ldquo;customer&rdquo; seemed to like a lot.</p>
+
+<iframe width="560" height="315" src="http://www.indiedb.com/media/iframe/725823" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 
-</article>
-
-</div>
+<p>Some technical notes: The customers requirements where a cross-platform game running both Windows and Linux. The Windows version were to use DirectX11 and the Linux version was required to use OpenGL 4. We used a data-driven approach when communicating with the two render back-ends which made the whole cross-platfrom thing nearly breeze. A part from some driver issues on our Linux machine. We used Visual studio 2010 when developing the game. I created a custom make-file that parsed the solutions project folders and compiled and linked the game with the required libraries and dependencies. I also wrote a couple small sh-scripts that pulled the whole thing from GitHub, built it and emailed any erroneous output to a specified email adress. This was then triggered to run from a cron-script each lunch and each night. A quite simple and lightweight way to do automated builds and continuous integration. The code is released under the MIT license and can be downloaded on <a href="https://github.com/MattiasLiljeson/denLilleOstPojken">GitHub</a>. You can see more videos and images on the <a href="http://www.indiedb.com/games/the-little-cheese-boy">IndieDB</a> page. You can also download a compiled version from there</p>
 
   
 </article>
@@ -138,19 +138,6 @@ Jan 24 2014 Mattias Liljeson I'm a CompSci MSc student with interests in realtim
 
 </footer>
   
-
-<script type="text/javascript">
-      var disqus_shortname = 'mattiasliljesoncom';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
 
 
 

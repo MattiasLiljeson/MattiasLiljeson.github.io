@@ -1,19 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://MattiasLiljeson.github.io/blog/2014/01/24/artificial-life/</loc>
+        <lastmod>2014-01-24T23:59:30+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://MattiasLiljeson.github.io/about/</loc>
-        <lastmod>2014-01-23T22:54:51+01:00</lastmod>
+        <lastmod>2014-01-24T22:09:29+01:00</lastmod>
     </url>
     <url>
         <loc>http://MattiasLiljeson.github.io/blog/archives/</loc>
-        <lastmod>2014-01-23T22:26:00+01:00</lastmod>
+        <lastmod>2014-01-24T23:59:30+01:00</lastmod>
     </url>
     <url>
         <loc>http://MattiasLiljeson.github.io/</loc>
-        <lastmod>2014-01-23T22:26:00+01:00</lastmod>
+        <lastmod>2014-01-24T23:59:30+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MattiasLiljeson.github.io/portfolio/</loc>
+        <lastmod>2014-01-24T23:58:03+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://MattiasLiljeson.github.io/projects/</loc>
+        <lastmod>2014-01-24T21:42:23+01:00</lastmod>
     </url>
     <url>
         <loc>http://MattiasLiljeson.github.io/robots.txt</loc>
-        <lastmod>2014-01-23T22:26:00+01:00</lastmod>
+        <lastmod>2014-01-24T20:52:32+01:00</lastmod>
     </url>
 </urlset>
