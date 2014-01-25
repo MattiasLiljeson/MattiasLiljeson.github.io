@@ -9,7 +9,7 @@
   <meta name="author" content="Mattias Liljeson">
 
   
-  <meta name="description" content="Last spring I wrote a short paper about an artificial life simulation. The paper was part of an assignment in publishing results to a scientific &hellip;">
+  <meta name="description" content="In the autumn of 2012, I together with some friends made a small pac-man clone with a twist in a project course. The goal with this project was to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +72,92 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/01/25/the-little-cheese-boy/">The Little Cheese Boy</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-25T11:09:15+01:00" pubdate data-updated="true">Jan 25<span>th</span>, 2014</time>
+        
+         | <a href="/blog/2014/01/25/the-little-cheese-boy/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>In the autumn of 2012, I together with some friends made a small pac-man clone with a twist in a project course. The goal with this project was to get a grip on Agile methodologies, especially Scrum, and to successfully deliver a cross-platform game. In the end, I think we got a cute little game together which the &ldquo;customer&rdquo; (a prof. acting customer) seemed to like a lot.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/01/25/the-little-cheese-boy/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/25/amalgamation/">Amalgamation</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-25T10:49:23+01:00" pubdate data-updated="true">Jan 25<span>th</span>, 2014</time>
+        
+         | <a href="/blog/2014/01/25/amalgamation/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;ve been part of some quite large game projects as a member of a group. The biggest and longest was a game project for six months were we started from scratch and built a modern 3D space shooter with fun gameplay (at least that&rsquo;s what I think ;&ndash;)) and quite some eye candy.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/01/25/amalgamation/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2014/01/24/artificial-life/">An Artificial Life Simulation</a></h1>
     
     
@@ -97,18 +183,14 @@
   </header>
 
 
-  <div class="entry-content"><p>Last spring I wrote a short paper about an artificial life simulation. The paper was part of an assignment in publishing results to a scientific standard. Even though the assignment wasn&rsquo;t about creating a good Artificial Life experiment, just a simple simulation, I couldn&rsquo;t resist doing another try on this subject as I had done an artificial life simulation earlier in Java. This time, I had a lot more animals and a bigger map than I had when I did this in Java. I therefore decided to implement it in C++ instead of Java. This naturally brought some speed to the execution. I didn&rsquo;t optimize the code at all though, just a simple omp parallel pragma directive to multi thread the simulation at the experiment level. I Instead focused on writing clean code with small functions and small classes to minimize the need for document the code with comments. When looking at the code in retrospect, the code looks quite ok but some classes are way to big to be clean code. As I felt that the results of the experiment were quite interesting, I thought I would share them and the code.</p>
+  <div class="entry-content"><p>Back in 2012, I did my first foray into clean code after having watched some of Uncle Bob&rsquo;s lectures. I was pretty happy with what it turned out to and later did some optimizations when publishing the code a year later.</p>
 
-<p>I did some small optimizations some months later as the the program ran quite sluggish. At the end, I managed to nearly quadruple the speed by optimizing the hot path. One big increase in performance came when I replaced a modulus operator with an if/else clause. As the else-clause was only triggered 1/32 of the times, the if/else caused a speed up compared to the modulus operator. In the end, the if/else brought a speed increase bigger than the performance penalties coming with invoking the branch predictor. Sure, by using some bit twiddling I may get a little bit more speed but in this case, it isn&rsquo;t really worth that work and the complexity it brings. In the end, I managed to move the bulk of the processor time away from one single function to many, so optimizing it further might only bring a few percent better execution time.</p>
-
-<iframe width="420" height="315" src="//www.youtube.com/embed/KsBChqI0sBk" frameborder="0" allowfullscreen></iframe>
-
-
-<p>A visualization of the movement of the animals can be seen <a href="http://youtu.be/KsBChqI0sBk">here</a> (also embedded above). Some interesting trends are the initial chaotic behaviour and later the diagonal wave-like pattern towards the end of the simulation.</p>
-
-<p>The code is published on <a href="https://github.com/MattiasLiljeson/Artificial-Life-Sim">GitHub</a> under the MIT License (except for EasyBmp).</p>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/01/24/artificial-life/">Read on &rarr;</a>
+    </footer>
   
 
 
@@ -129,6 +211,14 @@
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/01/25/the-little-cheese-boy/">The little cheese boy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/25/amalgamation/">Amalgamation</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/01/24/artificial-life/">An Artificial Life Simulation</a>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Mattias Liljeson]]></title>
-  <link href="http://MattiasLiljeson.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: portfolio | Mattias Liljeson]]></title>
+  <link href="http://MattiasLiljeson.github.io/blog/categories/portfolio/atom.xml" rel="self"/>
   <link href="http://MattiasLiljeson.github.io/"/>
   <updated>2014-01-25T15:48:19+01:00</updated>
   <id>http://MattiasLiljeson.github.io/</id>
@@ -50,31 +50,6 @@
 <p>My main work on this project consisted of designing and implementing the data oriented architecture, which was heavily inspired by the Java <a href="http://gamadu.com/artemis/">Artemis game engine</a>. I also worked on input, the renderer and a scripting system to construct and initialize objects during runtime. The scripting system was quite a challenge as C++ doesn&rsquo;t have a reflection API.</p>
 
 <p>Someday, not to far into the future, I will write a few blog posts about the game and it&rsquo;s construction. In the meantime you can fork the source code on <a href="https://github.com/MattiasLiljeson/Amalgamation">GitHub</a> and download a compiled executable from <a href="http://www.indiedb.com/games/amalgamation">IndieDB</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[An Artificial Life Simulation]]></title>
-    <link href="http://MattiasLiljeson.github.io/blog/2014/01/24/artificial-life/"/>
-    <updated>2014-01-24T23:56:07+01:00</updated>
-    <id>http://MattiasLiljeson.github.io/blog/2014/01/24/artificial-life</id>
-    <content type="html"><![CDATA[<p>Back in 2012, I did my first foray into clean code after having watched some of Uncle Bob&rsquo;s lectures. I was pretty happy with what it turned out to and later did some optimizations when publishing the code a year later.</p>
-
-<!-- more -->
-
-
-
-
-<iframe width="420" height="315" src="http://MattiasLiljeson.github.io//www.youtube.com/embed/KsBChqI0sBk" frameborder="0" allowfullscreen></iframe>
-
-
-<p>Last spring I wrote a short paper about an artificial life simulation. The paper was part of an assignment in publishing results to a scientific standard. Even though the assignment wasn&rsquo;t about creating a good Artificial Life experiment, just a simple simulation, I couldn&rsquo;t resist doing another try on this subject as I had done an artificial life simulation earlier in Java. This time, I had a lot more animals and a bigger map than I had when I did this in Java. I therefore decided to implement it in C++ instead of Java. This naturally brought some speed to the execution. I didn&rsquo;t optimize the code at all though, just a simple omp parallel pragma directive to multi thread the simulation at the experiment level. I Instead focused on writing clean code with small functions and small classes to minimize the need for document the code with comments. When looking at the code in retrospect, the code looks quite ok but some classes are way to big to be clean code. As I felt that the results of the experiment were quite interesting, I thought I would share them and the code.</p>
-
-<p>I did some small optimizations some months later as the the program ran quite sluggish. At the end, I managed to nearly quadruple the speed by optimizing the hot path. One big increase in performance came when I replaced a modulus operator with an if/else clause. As the else-clause was only triggered 1/32 of the times, the if/else caused a speed up compared to the modulus operator. In the end, the if/else brought a speed increase bigger than the performance penalties coming with invoking the branch predictor. Sure, by using some bit twiddling I may get a little bit more speed but in this case, it isn&rsquo;t really worth that work and the complexity it brings. In the end, I managed to move the bulk of the processor time away from one single function to many, so optimizing it further might only bring a few percent better execution time.</p>
-
-<p>A visualization of the movement of the animals can be seen <a href="http://youtu.be/KsBChqI0sBk">here</a> (also embedded above). Some interesting trends are the initial chaotic behaviour and later the diagonal wave-like pattern towards the end of the simulation.</p>
-
-<p>The code is published on <a href="https://github.com/MattiasLiljeson/Artificial-Life-Sim">GitHub</a> under the MIT License (except for EasyBmp).</p>
 ]]></content>
   </entry>
   

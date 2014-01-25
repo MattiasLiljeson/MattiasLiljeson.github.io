@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Amalgamation | Mattias Liljeson]]></title>
+  <link href="http://MattiasLiljeson.github.io/blog/categories/amalgamation/atom.xml" rel="self"/>
+  <link href="http://MattiasLiljeson.github.io/"/>
+  <updated>2014-01-25T15:48:19+01:00</updated>
+  <id>http://MattiasLiljeson.github.io/</id>
+  <author>
+    <name><![CDATA[Mattias Liljeson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Amalgamation]]></title>
+    <link href="http://MattiasLiljeson.github.io/blog/2014/01/25/amalgamation/"/>
+    <updated>2014-01-25T10:49:23+01:00</updated>
+    <id>http://MattiasLiljeson.github.io/blog/2014/01/25/amalgamation</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been part of some quite large game projects as a member of a group. The biggest and longest was a game project for six months were we started from scratch and built a modern 3D space shooter with fun gameplay (at least that&rsquo;s what I think ;&ndash;)) and quite some eye candy.</p>
+
+<!-- more -->
+
+
+
+
+<iframe width="560" height="315" src="http://www.indiedb.com/media/iframe/811308" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+
+<p>My main work on this project consisted of designing and implementing the data oriented architecture, which was heavily inspired by the Java <a href="http://gamadu.com/artemis/">Artemis game engine</a>. I also worked on input, the renderer and a scripting system to construct and initialize objects during runtime. The scripting system was quite a challenge as C++ doesn&rsquo;t have a reflection API.</p>
+
+<p>Someday, not to far into the future, I will write a few blog posts about the game and it&rsquo;s construction. In the meantime you can fork the source code on <a href="https://github.com/MattiasLiljeson/Amalgamation">GitHub</a> and download a compiled executable from <a href="http://www.indiedb.com/games/amalgamation">IndieDB</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
