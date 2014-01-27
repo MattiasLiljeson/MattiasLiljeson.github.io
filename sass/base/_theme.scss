@@ -72,7 +72,8 @@ a {
 }
 
 html {
-  background: image-url("base.jpg") no-repeat center center fixed;
+  background: image-url("base.jpg") repeat center center fixed;
+  /*background: no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
